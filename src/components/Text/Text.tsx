@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
-const Heading1 = styled.h1``;
-const Heading2 = styled.h2``;
-const Heading3 = styled.h3``;
-
-const Heading4 = styled.h4``;
-
-const Heading5 = styled.h5``;
-
-export { Heading1, Heading2, Heading3, Heading4, Heading5 };
+export const Title = styled.p`
+  margin: 1% 0;
+  font-size: xx-large;
+  font-weight: bold;
+`;
+export const Subtitle = styled.p`
+  font-size: x-large;
+  margin: 1% 0;
+`;
+export const Text = styled.p`
+  font-size: large;
+  margin: 1% 0;
+`;
