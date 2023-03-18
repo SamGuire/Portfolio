@@ -1,3 +1,7 @@
+import { useTranslation } from "react-i18next";
+import { Heading1 } from "../../components/Text/Text";
+
 export default function About() {
-  return <div>About</div>;
+  const { t, i18n } = useTranslation();
+  return <Heading1>{t("a.b")}</Heading1>;
 }

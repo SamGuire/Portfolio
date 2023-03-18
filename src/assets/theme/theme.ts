@@ -1,8 +1,21 @@
-export interface ISystemTheme {
-  background: string;
+export interface ISystemThemes {
+  [key: string]: ITheme;
 }
-const theme: ISystemTheme = {
-  background: "#1E1E1E",
+
+export interface ITheme {
+  primary: string;
+  secondary: string;
+  textColor: string;
+  iconColor: string;
+}
+
+const systemThemes: ISystemThemes = {
+  dark: {
+    primary: "#222",
+    secondary: "#2c2c2c",
+    textColor: "#fff",
+    iconColor: "#fff",
+  },
 };
 
-export default theme;
+export default systemThemes;
