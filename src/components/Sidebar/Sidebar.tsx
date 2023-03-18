@@ -72,7 +72,7 @@ const Contact = styled.div`
 const SidebarMenu = styled.div`
   width: 350px;
   height: 100vh;
-  background-color: #403d3d;
+  background-color: ${({ theme }) => theme.secondary};
   top: 0;
 `;
 
