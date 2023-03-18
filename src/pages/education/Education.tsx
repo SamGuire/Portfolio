@@ -1,14 +1,6 @@
 import { TFunction } from "i18next";
 import { useTranslation } from "react-i18next";
-import styled from "styled-components";
-import {
-  JavaScriptIcon,
-  MongoDBIcon,
-  PostgreSQLIcon,
-  PythonIcon,
-  ReactIcon,
-  TypeScriptIcon,
-} from "../../assets/dev-icons/dev-icons";
+import transcriptPDF from "../../assets/pdfs/transcript-degree-completed.pdf";
 import { InfoPaper } from "../../components/paper/Paper";
 import { Text, Title } from "../../components/Text/Text";
 
@@ -16,66 +8,43 @@ interface IPaperContentProps {
   t: TFunction;
 }
 
-const PassionContent = ({ t }: IPaperContentProps) => (
+const SummaryContent = ({ t }: IPaperContentProps) => (
   <ul>
     <li>
-      <Text>{t("about.passions.tech")}</Text>
+      <Text>{t("education.summary.university")}</Text>
     </li>
     <li>
-      <Text>{t("about.passions.videogames")}</Text>
+      <Text>{t("education.summary.degree")}</Text>
     </li>
     <li>
-      <Text>{t("about.passions.sports")}</Text>
+      <Text>{t("education.summary.cgpa")}</Text>
+    </li>
+    <li>
+      <Text>{t("education.summary.notice")}</Text>
     </li>
   </ul>
 );
 
-const CareerInterestContent = ({ t }: IPaperContentProps) => (
-  <ul>
-    <li>
-      <Text>{t("about.careerInterest.five")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.careerInterest.ten")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.careerInterest.twenty")}</Text>
-    </li>
-  </ul>
-);
-
-const LearningContent = () => (
-  <ProgrammingLanguageList>
-    <ReactIcon />
-    <TypeScriptIcon />
-    <JavaScriptIcon />
-    <PythonIcon />
-    <PostgreSQLIcon />
-    <MongoDBIcon />
-  </ProgrammingLanguageList>
+const TranscriptContent = ({ t }: IPaperContentProps) => (
+  <iframe
+    title="My transcript"
+    src={transcriptPDF}
+    width="100%"
+    height="600px"
+  ></iframe>
 );
 
 export default function Education() {
   const { t } = useTranslation();
   return (
     <>
-      <Title>{t("about.title")}</Title>
-      <InfoPaper title={t("about.passions.subtitle")}>
-        <PassionContent t={t} />
+      <Title>{t("education.title")}</Title>
+      <InfoPaper title={t("education.summary.subtitle")}>
+        <SummaryContent t={t} />
       </InfoPaper>
-      <InfoPaper title={t("about.careerInterest.subtitle")}>
-        <CareerInterestContent t={t} />
-      </InfoPaper>
-      <InfoPaper title={t("about.currentlyLearning.subtitle")}>
-        <LearningContent />
+      <InfoPaper title={t("education.transcript")}>
+        <TranscriptContent t={t} />
       </InfoPaper>
     </>
   );
 }
-
-const ProgrammingLanguageList = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 5%;
-  justify-content: space-evenly;
-`;

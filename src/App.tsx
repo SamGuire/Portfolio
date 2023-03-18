@@ -4,16 +4,15 @@ import styled from "styled-components";
 import Sidebar from "./components/Sidebar/Sidebar";
 import About from "./pages/about/About";
 import Education from "./pages/education/Education";
-import Experience from "./pages/Experience/Experience";
-import MainPage from "./pages/MainPage/MainPage";
-import Projects from "./pages/projects/Projects";
+import Experience from "./pages/experience/Experience";
+import MainPage from "./pages/mainpage/MainPage";
 import Skills from "./pages/skills/Skills";
 import { ThemeProvider } from "styled-components";
 import systemThemes from "./assets/theme/theme";
 import GlobalStyle from "./assets/global/global.style";
 
 function App() {
-  const [theme, setTheme] = useState<string>("dark");
+  const [theme] = useState<string>("dark");
   return (
     <ThemeProvider theme={systemThemes[theme]}>
       <GlobalStyle />
