@@ -24,7 +24,6 @@ function App() {
             <Routes>
               <Route path="/" element={<About />} />
               <Route path="/education" element={<Education />} />
-              <Route path="/passions" element={<Projects />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/experience" element={<Experience />} />
             </Routes>
@@ -38,6 +37,7 @@ function App() {
 const MainContent = styled.div`
   padding: 45px;
   width: 100%;
+  overflow-y: scroll;
 `;
 
 export default App;

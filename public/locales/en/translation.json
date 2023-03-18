@@ -23,11 +23,27 @@
     }
   },
   "about": {
-    "title": "About title",
-    "passions": "About passion",
-    "careerInterest": "About career interest",
-    "favoriteSubjects": "About favorite subjects",
-    "currentlyLearning": "About currently learning"
+    "title": "About me",
+    "passions": {
+      "subtitle": "Passions",
+      "tech": "Programming",
+      "videogames": "Video games, especially fighting games",
+      "sports": "Basketball"
+    },
+    "careerInterest": {
+      "subtitle": "Career Interest / Goals",
+      "five": "After 5 years, be a specialist in the JS/TS and Python ecosystem.",
+      "ten": "After 10 years, be a senior developer, possibly mentoring juniors in their careers.",
+      "twenty": "After 20 years, be a technical consultant, helping new companies build their new products and primarly doing software architecture."
+    },
+    "favoriteSubjects": {
+      "subtitle": "Favorite subjects during studies",
+      "dsa": "Data structures and algorithms was my first true introduction to computer science. Every day learning in this subject felt like a puzzle game. Loved every second of it.",
+      "intro": "Introduction to Software Engineering was my first introduction to building an app, we learned how to use Java, Android studios and SQLlite to build a client appointment app. This course was extremely helpful in thinking about the big picture in working on a project."
+    },
+    "currentlyLearning": {
+      "subtitle": "Currently learning"
+    }
   },
   "education": {
     "title": "Education title",

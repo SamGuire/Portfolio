@@ -22,9 +22,4 @@ export const SidebarData = [
     path: "/skills",
     icon: <fa.FaCubes />,
   },
-  {
-    title: "Passions",
-    path: "/passions",
-    icon: <fa.FaHeart />,
-  },
 ];
