@@ -46,12 +46,17 @@
     }
   },
   "education": {
-    "title": "Education title",
-    "university": "Education university",
-    "transcript": "Education transcript",
-    "cgpa": "Education CGPA",
-    "achievements": "Education achievements",
-    "notes": "Education extra notes"
+    "title": "Education",
+    "summary": {
+      "subtitle": "Summary",
+      "university": "University of Ottawa - Ottawa,Ontario",
+      "degree": "BSc with honours in Computer Science - 2019-2022",
+      "cgpa": "CGPA: 9.7/10",
+      "notice": "First enrolled in Mechanical Engineering, but switched over to Computer Science in 2019"
+    },
+    "transcript": "Transcript",
+    "achievements": "Academic Achievements",
+    "extraInfo": "Extra Information"
   },
   "experience": {
     "title": "Experiences",
