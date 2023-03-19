@@ -23,7 +23,7 @@ import {
   WindowsIcon,
 } from "../../assets/dev-icons/dev-icons";
 import { InfoPaper } from "../../components/paper/Paper";
-import { Text, Title } from "../../components/Text/Text";
+import { Title } from "../../components/Text/Text";
 
 interface IPaperContentProps {
   t: TFunction;
@@ -63,6 +63,7 @@ const ProgrammingContentList = () => (
     <ExpressIcon />
     <MaterialUIIcon />
     <MochaIcon />
+    <ReactIcon />
   </ProgrammingLanguageList>
 );
 

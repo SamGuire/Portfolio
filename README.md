@@ -24,14 +24,9 @@ Should build the app for production. It uses the out of the box bundler offered 
 
 I used the basic file structure for most react apps.
 
-- A test folder for running unit-tests for my components
-- An asset folder for storing my images.
-- A component folder for storgin reusubale components.
-- A page folder used to store unique webpages that uses components.
-
-### Testing
-
-I simply unit-test my component to make sure things are well built and work accordingly. However, manual testing is still required.
+- An asset folder for storing my images, icons and global themes.
+- A component folder for storing reusubale components.
+- A page folder used to store unique pages and contents that uses components.
 
 ## Tech stack
 
