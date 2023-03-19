@@ -61,8 +61,8 @@
   "experience": {
     "title": "Experiences",
     "macadamian": {
-      "subtitle": "Front End Developer Intern - Macadamaian Technologies",
-      "languagesFrameworks": "Languages/Libraries Used",
+      "subtitle": "Front End Developer Intern - Macadamaian Technologies (May 2020 - August 2020)",
+      "toolsUsed": "Tools Used:",
       "details": {
         "d1": "Implemented a customizable graph that would allow the concierge to view their daily/weekly number of check-ins using Chart.js.",
         "d2": "Designed a branding service that would allow the SMS notifications, brand logos etc. to be configurable.",
@@ -70,8 +70,8 @@
       }
     },
     "cartovista": {
-      "subtitle": "Full Stack Developer Intern - CartoVista",
-      "languagesFrameworks": "Languages/Libraries Used",
+      "subtitle": "Full Stack Developer Intern - CartoVista (January 2021 - April 2021)",
+      "toolsUsed": "Tools Used:",
       "details": {
         "d1": "Worked closely alongside the UX designer and contributed heavily in setting up the user interface of their new web application.",
         "d2": "Setup an REST API to allow front-end developers to fetch GIS data to be used for the new web application.",
@@ -80,8 +80,8 @@
       }
     },
     "esdc": {
-      "subtitle": "Application Developer / IT Analyst - Employment and Social Development Canada",
-      "languagesFrameworks": "Languages/Libraries Used",
+      "subtitle": "Application Developer / IT Analyst - Employment and Social Development Canada (September 2021 - August 2022, February 2023 - Current)",
+      "toolsUsed": "Tools Used:",
       "details": {
         "d1": "Given full ownership on the design and implementation of the software.",
         "d2": "Designed the API to allow enterprise architects to easily transform business roadmaps to sprint iterations and tasks.",
