@@ -1,8 +1,8 @@
 import { TFunction } from "i18next";
 import { useTranslation } from "react-i18next";
-import transcriptPDF from "../../assets/pdfs/transcript-degree-completed.pdf";
+import transcriptPDF from "../../../assets/pdfs/transcript-degree-completed.pdf";
 import { InfoPaper } from "../../components/paper/Paper";
-import { Text, Title } from "../../components/Text/Text";
+import { Text, Title } from "../../components/text/Text";
 
 interface IPaperContentProps {
   t: TFunction;

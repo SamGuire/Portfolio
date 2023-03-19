@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Subtitle } from "../Text/Text";
+import { Subtitle } from "../text/Text";
 
 export interface IPaperProps {
   title: string;
