@@ -2,12 +2,25 @@ import { TFunction } from "i18next";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 import {
+  AzureIcon,
+  CSharpIcon,
+  CSSIcon,
+  ExpressIcon,
+  GitHubIcon,
+  HTMLIcon,
   JavaScriptIcon,
+  MaterialUIIcon,
+  MochaIcon,
   MongoDBIcon,
+  NodeIcon,
   PostgreSQLIcon,
   PythonIcon,
   ReactIcon,
   TypeScriptIcon,
+  UbuntuLinuxIcon,
+  VisualStudioCodeIcon,
+  VisualStudioIcon,
+  WindowsIcon,
 } from "../../assets/dev-icons/dev-icons";
 import { InfoPaper } from "../../components/paper/Paper";
 import { Text, Title } from "../../components/Text/Text";
@@ -16,58 +29,60 @@ interface IPaperContentProps {
   t: TFunction;
 }
 
-const PassionContent = ({ t }: IPaperContentProps) => (
-  <ul>
-    <li>
-      <Text>{t("about.passions.tech")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.passions.videogames")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.passions.sports")}</Text>
-    </li>
-  </ul>
-);
-
-const CareerInterestContent = ({ t }: IPaperContentProps) => (
-  <ul>
-    <li>
-      <Text>{t("about.careerInterest.five")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.careerInterest.ten")}</Text>
-    </li>
-    <li>
-      <Text>{t("about.careerInterest.twenty")}</Text>
-    </li>
-  </ul>
-);
-
-const LearningContent = () => (
+const ToolsContentList = () => (
   <ProgrammingLanguageList>
-    <ReactIcon />
-    <TypeScriptIcon />
-    <JavaScriptIcon />
-    <PythonIcon />
+    <VisualStudioCodeIcon />
+    <VisualStudioIcon />
+    <GitHubIcon />
+    <AzureIcon />
+    <WindowsIcon />
+    <UbuntuLinuxIcon />
+  </ProgrammingLanguageList>
+);
+const ToolsContent = ({ t }: IPaperContentProps) => <ToolsContentList />;
+
+const DatabaseBackendContentList = () => (
+  <ProgrammingLanguageList>
+    <NodeIcon />
     <PostgreSQLIcon />
     <MongoDBIcon />
   </ProgrammingLanguageList>
+);
+const DatabaseBackendContent = ({ t }: IPaperContentProps) => (
+  <DatabaseBackendContentList />
+);
+
+const ProgrammingContentList = () => (
+  <ProgrammingLanguageList>
+    <TypeScriptIcon />
+    <JavaScriptIcon />
+    <PythonIcon />
+    <CSharpIcon />
+    <HTMLIcon />
+    <CSSIcon />
+    <ExpressIcon />
+    <MaterialUIIcon />
+    <MochaIcon />
+  </ProgrammingLanguageList>
+);
+
+const ProgrammingContent = ({ t }: IPaperContentProps) => (
+  <ProgrammingContentList />
 );
 
 export default function Skills() {
   const { t } = useTranslation();
   return (
     <>
-      <Title>{t("about.title")}</Title>
-      <InfoPaper title={t("about.passions.subtitle")}>
-        <PassionContent t={t} />
+      <Title>{t("skills.title")}</Title>
+      <InfoPaper title={t("skills.programmingLanguages")}>
+        <ProgrammingContent t={t} />
       </InfoPaper>
-      <InfoPaper title={t("about.careerInterest.subtitle")}>
-        <CareerInterestContent t={t} />
+      <InfoPaper title={t("skills.databaseBackend")}>
+        <DatabaseBackendContent t={t} />
       </InfoPaper>
-      <InfoPaper title={t("about.currentlyLearning.subtitle")}>
-        <LearningContent />
+      <InfoPaper title={t("skills.devTools")}>
+        <ToolsContent t={t} />
       </InfoPaper>
     </>
   );

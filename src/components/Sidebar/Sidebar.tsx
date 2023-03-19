@@ -26,12 +26,20 @@ export default function Sidebar() {
       </Nav>
       <Contact>
         <LinkContainer>
-          <ContactLinkItem href="google.com">
+          <ContactLinkItem
+            href="https://www.linkedin.com/in/issam-robler-0b5a7817b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaIcons.FaLinkedin />
           </ContactLinkItem>
         </LinkContainer>
         <LinkContainer>
-          <ContactLinkItem href="https://github.com">
+          <ContactLinkItem
+            href="https://github.com/SamGuire"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaIcons.FaGithub />
           </ContactLinkItem>
         </LinkContainer>
