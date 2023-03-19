@@ -13,6 +13,9 @@ i18n
   .use(BackEnd)
   .use(initReactI18next)
   .init({
+    backend: {
+      loadPath: "/Portfolio/locales/{{lng}}/translation.json",
+    },
     fallbackLng: "en",
     keySeparator: ".",
     interpolation: { escapeValue: false },
