@@ -21,9 +21,9 @@ import {
   VisualStudioCodeIcon,
   VisualStudioIcon,
   WindowsIcon,
-} from "../../assets/dev-icons/dev-icons";
+} from "../../../assets/dev-icons/dev-icons";
 import { InfoPaper } from "../../components/paper/Paper";
-import { Title } from "../../components/Text/Text";
+import { Title } from "../../components/text/Text";
 
 interface IPaperContentProps {
   t: TFunction;
@@ -31,21 +31,21 @@ interface IPaperContentProps {
 
 const ToolsContentList = () => (
   <ProgrammingLanguageList>
-    <VisualStudioCodeIcon />
-    <VisualStudioIcon />
-    <GitHubIcon />
-    <AzureIcon />
-    <WindowsIcon />
-    <UbuntuLinuxIcon />
+    <VisualStudioCodeIcon isMobile />
+    <VisualStudioIcon isMobile />
+    <GitHubIcon isMobile />
+    <AzureIcon isMobile />
+    <WindowsIcon isMobile />
+    <UbuntuLinuxIcon isMobile />
   </ProgrammingLanguageList>
 );
 const ToolsContent = ({ t }: IPaperContentProps) => <ToolsContentList />;
 
 const DatabaseBackendContentList = () => (
   <ProgrammingLanguageList>
-    <NodeIcon />
-    <PostgreSQLIcon />
-    <MongoDBIcon />
+    <NodeIcon isMobile />
+    <PostgreSQLIcon isMobile />
+    <MongoDBIcon isMobile />
   </ProgrammingLanguageList>
 );
 const DatabaseBackendContent = ({ t }: IPaperContentProps) => (
@@ -54,16 +54,16 @@ const DatabaseBackendContent = ({ t }: IPaperContentProps) => (
 
 const ProgrammingContentList = () => (
   <ProgrammingLanguageList>
-    <TypeScriptIcon />
-    <JavaScriptIcon />
-    <PythonIcon />
-    <CSharpIcon />
-    <HTMLIcon />
-    <CSSIcon />
-    <ExpressIcon />
-    <MaterialUIIcon />
-    <MochaIcon />
-    <ReactIcon />
+    <TypeScriptIcon isMobile />
+    <JavaScriptIcon isMobile />
+    <PythonIcon isMobile />
+    <CSharpIcon isMobile />
+    <HTMLIcon isMobile />
+    <CSSIcon isMobile />
+    <ExpressIcon isMobile />
+    <MaterialUIIcon isMobile />
+    <MochaIcon isMobile />
+    <ReactIcon isMobile />
   </ProgrammingLanguageList>
 );
 
@@ -74,7 +74,7 @@ const ProgrammingContent = ({ t }: IPaperContentProps) => (
 export default function Skills() {
   const { t } = useTranslation();
   return (
-    <>
+    <SkillsContainer>
       <Title>{t("skills.title")}</Title>
       <InfoPaper title={t("skills.programmingLanguages")}>
         <ProgrammingContent t={t} />
@@ -85,13 +85,17 @@ export default function Skills() {
       <InfoPaper title={t("skills.devTools")}>
         <ToolsContent t={t} />
       </InfoPaper>
-    </>
+    </SkillsContainer>
   );
 }
 
+const SkillsContainer = styled.div`
+  margin: 5% 0;
+`;
 const ProgrammingLanguageList = styled.div`
   display: flex;
   flex-direction: row;
   margin: 5%;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 `;

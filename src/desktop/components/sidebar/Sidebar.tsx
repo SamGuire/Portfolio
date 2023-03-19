@@ -4,7 +4,7 @@ import styled from "styled-components";
 import * as FaIcons from "react-icons/fa";
 
 import { SidebarData } from "./Sidebar.data";
-import profilepic from "../../assets/imgs/profile.jpeg";
+import profilepic from "../../../assets/imgs/profile.jpeg";
 
 export default function Sidebar() {
   return (

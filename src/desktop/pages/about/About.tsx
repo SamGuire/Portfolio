@@ -8,9 +8,9 @@ import {
   PythonIcon,
   ReactIcon,
   TypeScriptIcon,
-} from "../../assets/dev-icons/dev-icons";
+} from "../../../assets/dev-icons/dev-icons";
 import { InfoPaper } from "../../components/paper/Paper";
-import { Text, Title } from "../../components/Text/Text";
+import { Text, Title } from "../../components/text/Text";
 
 interface IPaperContentProps {
   t: TFunction;
