@@ -1,0 +1,113 @@
+{
+  "common": {
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "mai": "Mai",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "nav": {
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Skills"
+    }
+  },
+  "about": {
+    "title": "About title",
+    "passions": "About passion",
+    "careerInterest": "About career interest",
+    "favoriteSubjects": "About favorite subjects",
+    "currentlyLearning": "About currently learning"
+  },
+  "education": {
+    "title": "Education title",
+    "university": "Education university",
+    "transcript": "Education transcript",
+    "cgpa": "Education CGPA",
+    "achievements": "Education achievements",
+    "notes": "Education extra notes"
+  },
+  "experience": {
+    "title": "Experience title",
+    "macadamian": {
+      "subtitle": "Macadamaian subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "cartovista": {
+      "subtitle": "CartoVista subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "esdc": {
+      "subtitle": "ESDC subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    }
+  },
+  "projects": {
+    "title": "projects title",
+    "project1": {
+      "subtitle": "project1 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "project2": {
+      "subtitle": "project2 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "project3": {
+      "subtitle": "project3 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills title",
+    "programmingLanguages": "Programming languages",
+    "libraryFrameworks": "Libranry and Frameworks",
+    "devTools": "dev tools",
+    "os": "os"
+  }
+}

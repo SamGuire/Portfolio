@@ -1,0 +1,132 @@
+{
+  "common": {
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "mai": "Mai",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "nav": {
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects",
+      "skills": "Skills"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "passions": {
+      "subtitle": "Passions",
+      "tech": "Programming",
+      "videogames": "Video games, especially fighting games",
+      "sports": "Basketball"
+    },
+    "careerInterest": {
+      "subtitle": "Career Interest / Goals",
+      "five": "After 5 years, be a specialist in the JS/TS and Python ecosystem.",
+      "ten": "After 10 years, be a senior developer, possibly mentoring juniors in their careers.",
+      "twenty": "After 20 years, be a technical consultant, helping new companies build their new products and primarly doing software architecture."
+    },
+    "favoriteSubjects": {
+      "subtitle": "Favorite subjects during studies",
+      "dsa": "Data structures and algorithms was my first true introduction to computer science. Every day learning in this subject felt like a puzzle game. Loved every second of it.",
+      "intro": "Introduction to Software Engineering was my first introduction to building an app, we learned how to use Java, Android studios and SQLlite to build a client appointment app. This course was extremely helpful in thinking about the big picture in working on a project."
+    },
+    "currentlyLearning": {
+      "subtitle": "Currently learning"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "summary": {
+      "subtitle": "Summary",
+      "university": "University of Ottawa - Ottawa,Ontario",
+      "degree": "BSc with honours in Computer Science - 2019-2022",
+      "cgpa": "CGPA: 9.7/10",
+      "notice": "First enrolled in Mechanical Engineering, but switched over to Computer Science in 2019"
+    },
+    "transcript": "Transcript",
+    "achievements": "Academic Achievements",
+    "extraInfo": "Extra Information"
+  },
+  "experience": {
+    "title": "Experiences",
+    "macadamian": {
+      "subtitle": "Front End Developer Intern - Macadamaian Technologies (May 2020 - August 2020)",
+      "toolsUsed": "Tools Used:",
+      "details": {
+        "d1": "Implemented a customizable graph that would allow the concierge to view their daily/weekly number of check-ins using Chart.js.",
+        "d2": "Designed a branding service that would allow the SMS notifications, brand logos etc. to be configurable.",
+        "d3": "Improved the user experience by allowing the concierge of the facility to prioritize certain clients with a drag and drop feature, removing clients from the queue as well as being able to differentiate clients who might have contracted COVID-19."
+      }
+    },
+    "cartovista": {
+      "subtitle": "Full Stack Developer Intern - CartoVista (January 2021 - April 2021)",
+      "toolsUsed": "Tools Used:",
+      "details": {
+        "d1": "Worked closely alongside the UX designer and contributed heavily in setting up the user interface of their new web application.",
+        "d2": "Setup an REST API to allow front-end developers to fetch GIS data to be used for the new web application.",
+        "d3": "Improved application performance by reducing the time needed to retrieve and insert thousands of rows of data from a database from a few minutes down to a few seconds, improving wait times and overall user experience.",
+        "d4": "Setup automation scripts using PowerShell to streamline the modification and extension of the company's database, thereby increasing developer productivity."
+      }
+    },
+    "esdc": {
+      "subtitle": "Application Developer / IT Analyst - Employment and Social Development Canada (September 2021 - August 2022, February 2023 - Current)",
+      "toolsUsed": "Tools Used:",
+      "details": {
+        "d1": "Given full ownership on the design and implementation of the software.",
+        "d2": "Designed the API to allow enterprise architects to easily transform business roadmaps to sprint iterations and tasks.",
+        "d3": "Followed the Test-Driven-Development (TDD) methodology, forcing the implementation of the API to be modular, flexible and with proper documentation."
+      }
+    }
+  },
+  "projects": {
+    "title": "projects title",
+    "project1": {
+      "subtitle": "project1 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "project2": {
+      "subtitle": "project2 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    },
+    "project3": {
+      "subtitle": "project3 subtitle",
+      "languagesFrameworks": "Macadamian languages framework",
+      "details": {
+        "subtitle": "details subtitle",
+        "d1": "detail 1",
+        "d2": "detail 2",
+        "d3": "detail 3"
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "programmingLanguages": "Programming Languages",
+    "databaseBackend": "Database/Back-End",
+    "devTools": "Dev tools",
+    "os": "os"
+  }
+}

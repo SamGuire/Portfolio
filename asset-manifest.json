@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Portfolio/static/js/main.921074de.js",
+    "static/media/transcript-degree-completed.pdf": "/Portfolio/static/media/transcript-degree-completed.f4da89c9a629577cc8b5.pdf",
+    "static/media/profile.jpeg": "/Portfolio/static/media/profile.decff2b54d6b7f412d18.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/getFetch.cjs": "/Portfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.921074de.js.map": "/Portfolio/static/js/main.921074de.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.921074de.js"
+  ]
+}
