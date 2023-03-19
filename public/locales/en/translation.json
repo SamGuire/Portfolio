@@ -123,10 +123,10 @@
     }
   },
   "skills": {
-    "title": "Skills title",
-    "programmingLanguages": "Programming languages",
-    "libraryFrameworks": "Libranry and Frameworks",
-    "devTools": "dev tools",
+    "title": "Skills",
+    "programmingLanguages": "Programming Languages",
+    "databaseBackend": "Database/Back-End",
+    "devTools": "Dev tools",
     "os": "os"
   }
 }
